@@ -1,3 +1,4 @@
-# React + Vite template
+# CV Application
 
-Currently quite bloated. Hoping to get it sorted out in the future.
+A project by TOP to test basic React skills. Create a CV by inserting info in
+the provided form.
