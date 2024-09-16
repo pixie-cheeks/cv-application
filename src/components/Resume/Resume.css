@@ -1,0 +1,36 @@
+.resume {
+  box-shadow: 0 0 5px hsla(0deg 0 0 / 50%);
+  font-size: 1.2rem;
+}
+
+.resume__head {
+  background-color: #212121;
+  padding: 2em 0;
+  text-align: center;
+  color: white;
+}
+
+.resume__full-name {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.resume__contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  place-content: center center;
+  margin: 0 auto;
+}
+
+.resume__body {
+  background-color: white;
+  padding: 2em;
+}
+
+.education__header {
+  box-sizing: border-box;
+  background-color: #eef1f3;
+  padding: 0.5em 0;
+  text-align: center;
+}

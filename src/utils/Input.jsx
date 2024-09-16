@@ -8,9 +8,10 @@ function Input({
 }) {
   const className = 'card__input';
   const input = textarea ? (
-    <textarea name={id} {...{ id, className, onChange }}>
-      {value}
-    </textarea>
+    <textarea
+      name={id}
+      {...{ id, className: `${className} card__textarea`, onChange, value }}
+    />
   ) : (
     <input {...{ type, value, id, className, onChange }} />
   );

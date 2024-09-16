@@ -1,3 +1,5 @@
+import './Resume.css';
+
 function GeneralInfo({ content }) {
   const { fullName, email, phone, address } = content;
   return (

@@ -28,7 +28,7 @@ function General({ content, setContent }) {
         onChange={(e) => setValue({ phone: e.target.value })}
       />
       <Input
-        label="address"
+        label="Address"
         id="address"
         value={address}
         onChange={(e) => setValue({ address: e.target.value })}

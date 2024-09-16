@@ -3,5 +3,41 @@
 }
 
 .page {
+  background-color: #eee;
   padding: 1em;
+  font-size: 1rem;
+}
+
+.card {
+  margin-bottom: 1em;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1em;
+}
+
+.card__title {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.4em;
+}
+
+.card__input {
+  outline: 1px solid gray;
+  border: none;
+  padding: 0.2em 0.4em;
+  font-size: 1rem;
+}
+
+.card__textarea {
+  min-height: 8em;
+  resize: none;
+}
+
+.card__input:focus {
+  outline: 1px solid black;
 }
