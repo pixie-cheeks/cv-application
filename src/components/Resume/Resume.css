@@ -1,5 +1,9 @@
 .resume {
+  display: flex;
+  flex-direction: column;
   box-shadow: 0 0 5px hsla(0deg 0 0 / 50%);
+  max-width: 700px;
+  height: 900px;
   font-size: 1.2rem;
 }
 
@@ -24,13 +28,24 @@
 }
 
 .resume__body {
+  flex: 1;
   background-color: white;
   padding: 2em;
 }
 
-.education__header {
+.header {
   box-sizing: border-box;
   background-color: #eef1f3;
-  padding: 0.5em 0;
+  padding: 0.1em 0;
   text-align: center;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+}
+
+.main__title {
+  margin: 0;
 }

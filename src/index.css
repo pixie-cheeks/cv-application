@@ -3,9 +3,21 @@
 }
 
 .page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
   background-color: #eee;
   padding: 1em;
   font-size: 1rem;
+}
+
+.form {
+  flex: 0 1 400px;
+}
+
+.resume {
+  flex: 1 1 700px;
 }
 
 .card {

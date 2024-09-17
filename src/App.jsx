@@ -32,18 +32,20 @@ function App() {
 
   return (
     <>
-      <General
-        content={generalSec}
-        setContent={(newGeneralSec) => setGeneralSec(newGeneralSec)}
-      />
-      <Education
-        content={educationSec}
-        setContent={(newEducationSec) => setEducationSec(newEducationSec)}
-      />
-      <Experience
-        content={experienceSec}
-        setContent={(newExperienceSec) => setExperienceSec(newExperienceSec)}
-      />
+      <div className="form">
+        <General
+          content={generalSec}
+          setContent={(newGeneralSec) => setGeneralSec(newGeneralSec)}
+        />
+        <Education
+          content={educationSec}
+          setContent={(newEducationSec) => setEducationSec(newEducationSec)}
+        />
+        <Experience
+          content={experienceSec}
+          setContent={(newExperienceSec) => setExperienceSec(newExperienceSec)}
+        />
+      </div>
       <Resume {...{ generalSec, educationSec, experienceSec }} />
     </>
   );
